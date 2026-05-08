@@ -88,7 +88,7 @@ export default function Hero() {
             style={{ transitionDelay: "0.1s" }}
           >
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            Available for work · Vadakara, Kerala
+            Available for work · Calicut, Kerala
           </div>
 
           <h1
@@ -134,7 +134,7 @@ export default function Hero() {
               transition: "opacity 0.8s ease 0.5s, transform 0.8s ease 0.5s",
             }}
           >
-            I help businesses in Vadakara and beyond grow their online presence through
+            I help businesses in Calicut and beyond grow their online presence through
             data-driven digital marketing strategies — turning clicks into customers.
           </p>
 
