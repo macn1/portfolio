@@ -90,7 +90,7 @@ export default function Hero() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16 py-32">
+      <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16 py-16">
         <div
           className="flex-1 flex flex-col items-center md:items-start text-center md:text-left"
           style={{
@@ -165,8 +165,8 @@ export default function Hero() {
             }}
           >
             {[
-              { value: "3+", label: "Years Exp." },
-              { value: "50+", label: "Projects" },
+              { value: "1+", label: "Years Exp." },
+              { value: "10+", label: "Projects" },
               { value: "100%", label: "Satisfaction" },
             ].map((stat) => (
               <div key={stat.label} className="text-center md:text-left">
@@ -216,8 +216,8 @@ export default function Hero() {
         >
           {/* Profile card */}
           <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-zinc-900/60 backdrop-blur-md pb-6">
-            <div className="w-full h-32 border-b border-purple-500/50 flex items-center justify-center mb-5 overflow-hidden">
-              <img src={anuImg} alt="Anurag" className="w-full h-full object-cover object-top" />
+            <div className="w-full h-32 border-b border-purple-500/50 flex items-center justify-center mb-5 overflow-hidden p-2">
+              <img src={anuImg} alt="Anurag" className="w-full h-full object-cover object-top " />
             </div>
             <div className="px-6">
               <div className="text-white font-bold text-lg">Anurag</div>
