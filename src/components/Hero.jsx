@@ -71,23 +71,6 @@ export default function Hero() {
         }}
       />
 
-      {/* Scrolling marquee line */}
-      <div className="md:hidden absolute bottom-32 left-0 right-0 z-10 overflow-hidden border-y border-white/5 py-3">
-        <div
-          className="flex gap-16 text-zinc-600 text-xs font-medium tracking-widest uppercase whitespace-nowrap"
-          style={{ animation: "marquee 20s linear infinite" }}
-        >
-          {Array(8).fill(null).map((_, i) => (
-            <span key={i} className="flex items-center gap-16">
-              <span>SEO</span><span className="text-purple-500">✦</span>
-              <span>Social Media</span><span className="text-purple-500">✦</span>
-              <span>SEM</span><span className="text-purple-500">✦</span>
-              <span>Content Strategy</span><span className="text-purple-500">✦</span>
-              <span>Google Ads</span><span className="text-purple-500">✦</span>
-            </span>
-          ))}
-        </div>
-      </div>
 
       {/* Main content */}
       <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16 py-16">
@@ -262,7 +245,7 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-zinc-500 text-xs tracking-widest uppercase"
+        className="hidden md:flex absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex-col items-center gap-2 text-zinc-500 text-xs tracking-widest uppercase"
         style={{ animation: "bounce 2s ease-in-out infinite" }}
       >
         <span>Scroll</span>
